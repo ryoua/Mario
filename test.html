@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div>
+        <input type="text" id="in1" name="userName"> <br>
+        <input type="button" onclick="test()" value="验证">
+    </div>
+
+    <script>
+    function test() {
+        let element = document.getElementById("in1");
+        let str = new String(element.value);
+        let ch = str.charAt(0);
+        if (ch == "a") {
+            document.write("213123123121");
+        }
+    }
+    </script>
+</body>
+</html>
